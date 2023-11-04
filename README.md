@@ -2,5 +2,6 @@
 
 # Landing page Estudo do espaço urbano em Picos
 
-## O projeto estuda de maneira ampla a expansão urbana, levantamento de procedência de produtos que são vendidos nos supermercados da cidade de Picos-PI, o projeto é desenvolvido pelo professor de Geografia Claudinei da Silva. Nesse site colocaremos informações sobre o projeto com mapas e fotografias da pesquisa para o público externo.
+## O projeto tem como foco principal o estudo abrangente da expansão urbana e a investigação da origem dos produtos vendidos nos supermercados da cidade de Picos, no estado do Piauí. Essa pesquisa é conduzida pelo professor de Geografia, Claudinei da Silva. Neste site, serão disponibilizadas informações detalhadas sobre o projeto, incluindo mapas e fotografias relacionadas à pesquisa, destinadas ao público externo interessado.
+
 
