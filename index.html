@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand " href="#" style="color: aliceblue;">
+    <header style="margin: 0; background-color: #938172">
+        <nav class="navbar navbar-expand-lg" style="background-color: #938172">
+            <div class="container" style="background-color: #938172">
+                <a class="navbar-brand " href="#" style="color: aliceblue;  background-color: #938172">
                     <img src="imagens/Logo escolhida pelo cliente-PhotoRoom.png-PhotoRoom.png" alt="Logo" width="140" height="45"
                         class="d-inline-block align-text-top">
                    
@@ -39,21 +39,21 @@
         </nav>
     </header>
     <main>
-        <section class="main-section">
+        <section class="main-section" style="background-color: rgb(54, 49, 49); background-image: url(imagens/balao.jpeg);max-width:100%; width:100%; height: 628px;">
             <div class="container">
                 <div class="content">
-                    <h1>O Estudo do Espaço Urbano em Picos</h1>
-                    <p>A nossa pesquisa visa compreender os processos mais recentes de produção do espaço urbano e os
+                    <h1 style="color: #fff; text-align:center; margin-bottom: 3rem;">O Estudo do Espaço Urbano em Picos</h1>
+                    <p style="color: #fff; text-align:center;">A nossa pesquisa visa compreender os processos mais recentes de produção do espaço urbano e os
                         agentes responsáveis pela transformação da terra rural em urbana, além de analisar implicações
-                        sobre a morfologia urbana e como isso afeta os citadinos e sua relação com a cidade.</p>
-                    <div class="background-image"></div>
+                        sobre a morfologia urbana e como isso afeta os citadinos e sua relação com a cidade.</p>   
                 </div>
             </div>
         </section>
-        <h2 style="text-align: center;">Uma breve introdução</h2>
-        <section class="picosinf" style="display: flex; margin: 2rem; gap: 2rem;">
-            <div class="inf">
-                <p>A cidade de Picos apresenta ampla oferta de serviços nas áreas de saúde, educação e estabelecimentos
+        <section class="picosinf" style="display: flex; flex-direction: column; gap: 3rem; background-color:  #541F14; align-items: center;">
+            <h2 style="text-align: center; color: #fff; margin-top: 3rem;">Uma breve introdução</h2>
+            <div style="display: flex; gap: 3rem;">
+            <div class="inf" style="width: 40rem; height:30rem;">
+                <p style="color: #fff;">A cidade de Picos apresenta ampla oferta de serviços nas áreas de saúde, educação e estabelecimentos
                     comerciais diversos, o que gera fluxos de pessoas de outras cidades e, por conseguinte, a necessária
                     oferta de habitações para suprir a demanda atual de moradias para os imigrantes e a resultante do
                     crescimento vegetativo local. De tal forma, Picos apresenta no contexto estadual área urbana
@@ -65,12 +65,11 @@
                     acesso aos equipamentos urbanos e da mobilidade espacial.</p>
             </div>
             <div>
-                <img src="imagens/" alt="">
-                <!-- Não tem a imagem do mapa na pasta -->
+                <img src="imagens/Imagem da catedral.png" alt="Foto da Catedral" style="width: 30rem;">
             </div>
-        </section>
-        <!-- Imagem para colocar -->
-        <section class="picosinf" style="display: flex; align-items:center; margin-left:2rem; gap: 2rem;">
+        </div>
+    </section>
+    <section class="picosinf" style="display: flex; align-items:center; margin-left:2rem; gap: 2rem;">
             <div>
                 <h2>Objetivos do nosso estudo</h2>
             </div>
@@ -79,17 +78,31 @@
                     <li >  Compreender os processos mais recentes de produção do espaço urbano;</li>
                     <li>  Analisar implicações sobre a morfologia urbana e como isso afeta os citadinos e sua relação com
                         a cidade;</li>
-                    <li> Produzir conhecimentos que subsidie o poder público local sobre as formas de produção da cidade
-                        de Picos.</li>
-                    <li> Propor instrumentos que possibilitem criar planos ou políticas públicas.</li>
-                </ol>
-            </div>
-        </section>
-        <section style="margin: 2rem; display: flex; justify-content:center; flex-direction: column;">
-           
-        </section>
-        <section class="infgeral2"  >
-            <div class="picosinf2">
+                        <li> Produzir conhecimentos que subsidie o poder público local sobre as formas de produção da cidade
+                            de Picos.</li>
+                            <li> Propor instrumentos que possibilitem criar planos ou políticas públicas.</li>
+                        </ol>
+                    </div>
+                </section>
+                <section>
+                    <h2 id="map" style="text-align: center;">Mapas Produzidos</h2>
+                    <div style="display: flex; flex-direction: column;">
+                        <img src="imagens/mapa1.png" alt="Imagens dos Mapas" style="width: 40rem;">
+                         <img src="imagens/mapa2.png" alt="Imagens dos Mapas" style="width: 40rem;">
+                         <img src="imagens/mapa3.png" alt="Imagens dos Mapas" style="width: 40rem;">
+                        </div>
+                    </section>
+                    <section style="margin: 2rem; display:flex; flex-direction:column; align-items:center; justify-content:center; width: 90%;" >
+                        <h2>Destaques para os principais achados até o momento</h2>
+                        <ol>
+                            <li>Existência de milhares de lotes não edificados e imensas áreas de vazios urbanos resultantes do
+                                processo de produção da cidade numa perspectiva marcada pelos interesses fundiários.</li>
+                            <li>Propusemos a delimitação de três áreas que consideramos como periurbanas devido à coexistência de
+                                usos do solo que mesclam atividades urbanas e rurais.</li>
+                        </ol>
+                    </section>
+                    <section class="infgeral2" style="background-color: #CC9E61; padding: 2rem;" >
+                    <div class="picosinf2">
             <h3 class="inftit" style="text-align: center;">Ferramentas e técnicas empregadas na coleta de dados.</h3>
             <div class="inflist">
                 <ul>
@@ -113,16 +126,20 @@
             </div>
 
         </section>
+        <p style="text-align: center; margin-top: 2rem;">Entender a lógica da produção da cidade de Picos é fundamental para a
+            proposição<br>
+            de planos públicos que visem disciplinar o uso e a produção do espaço urbano.Mas<br>
+            como os resultados podem influenciar positivamente o espaço urbano em Picos? 🤔</p>
+            <div style="text-align: center;">
+                <ul>
+                    <li>A prefeitura poderá utilizar os mapas como um instrumento de análise espacial para propor
+                        intervenções na cidade.</li>
+                        <li>A comunidade poderá se apropriar dos conhecimentos produzidos para intervir na cidade;</li>
+                        <li>Ser um instrumento de conhecimento da realidade local para estudantes no seu processo de formação
+                            como cidadãos atuantes.</li>
+                        </ul>
+                    </div>
         <div class="infgeral3">
-        <section style="margin: 2rem; display:flex; flex-direction:column; align-items:center; justify-content:center; width: 90%;" >
-            <h2>Destaques para os principais achados até o momento</h2>
-            <ol>
-                <li>Existência de milhares de lotes não edificados e imensas áreas de vazios urbanos resultantes do
-                    processo de produção da cidade numa perspectiva marcada pelos interesses fundiários.</li>
-                <li>Propusemos a delimitação de três áreas que consideramos como periurbanas devido à coexistência de
-                    usos do solo que mesclam atividades urbanas e rurais.</li>
-            </ol>
-        </section>
         <section style="display:flex; align-items:center; justify-content:center; flex-direction:column; margin: 2rem; width: 90%;">
             <h2>Reflexões sobre a dinâmica do nosso estudo</h2>
             <p>A realidade urbana brasileira é múltipla, isto é, requer a elaboração de instrumentos metodológicos para
@@ -134,18 +151,18 @@
                 possibilita aos alunos participarem através de bolsas de iniciação científica ou mesmo voluntários.</p>
         </section>
 
-        </div> 
-
-        <h2 id="map" style="text-align: center;">Mapas Produzidos</h2>
+    </div> 
+    
 
         <h2 id="galeria" style="text-align: center;">Galeria</h2>
 
-        <h3 style="text-align: center;" id="equipe">Equipe</h3>
-        <section class="equipe" style="display: flex; gap: 2rem; justify-content: space-evenly; align-items: center;">
-            <div>
-                <img src="imagens/Claudinei.jpeg" alt="Foto de Claudinei" style="width: 10rem;">
-                <p>Claudinei da Silva Pereira</p>
-                <p>Coordenador</p>
+        <section class="equipe" style=" background-color: #938172; padding: 2rem;">
+            <h3 style="text-align: center; background-color: #938172;" id="equipe">Equipe</h3>
+            <div style="display: flex; gap: 2rem; justify-content: space-evenly; align-items: center;">
+                <div>
+                    <img src="imagens/Claudinei.jpeg" alt="Foto de Claudinei" style="width: 10rem;">
+                    <p>Claudinei da Silva Pereira</p>
+                    <p>Coordenador</p>
             </div>
             <div>
                 <img src="imagens/Nildemar.jpeg" alt="Foto de Nildemar" style="width: 10rem;">
@@ -157,38 +174,36 @@
                 <p>Ana Beatriz dos Santos Silva</p>
                 <p>Bolsista de iniciação científica</p>
             </div>
+        </div>
         </section>
-        <section style="display: flex; justify-content: flex-start; margin-left: 2rem; align-items: center;">
-            <div style="flex-direction: column;">
-                <h4>Artigos com uma temática semelhante</h4><br>
-                <p>
+        <section style="display: flex; justify-content: flex-start; align-items: center; background-color: #626266; padding: 3rem;">
+            <div style="flex-direction: column; margin-left: 2rem;">
+                <h4 style="color: #fff;">Artigos com uma temática semelhante</h4><br>
+                <p style="color: #fff;">
                     A PRODUÇÃO DO ESPAÇO E MORFOLOGIA URBANA EM PRESIDENTE PRUDENTE-SP:
                     <a href="https://seer.ufu.br/index.php/caminhosdegeografia/article/view/56314">Link para o artigo</a>
                 </p>
-                <p>
+                <p style="color: #fff;">
                     Artigo: Agricultura na aglomeração urbana de Presidente Prudente – SP:
                     <a href="https://www.revistas.usp.br/geousp/article/view/183721">Link para o artigo</a>
                 </p>
             </div>
+            <img src="imagens/Só a igreja.png" alt="Foto da Igreja" style="width: 8rem; margin-left: 35rem;">
         </section>
-        
-        
-
 
     </main>
-    <footer>
-        <div class="footer-left">
+    <footer style="background-color: black;">
+        <div style="margin-left: 0;">
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#map">Mapas</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#" style="color: #fff;">Sobre</a></li>
+                <li><a href="#map" style="color: #fff;">Mapas</a></li>
+                <li><a href="#galeria" style="color: #fff;">Galeria</a></li>
+                <li><a href="#equipe" style="color: #fff;">Equipe</a></li>
             </ul>
         </div>
-        <div class="footer-right">
-            <img src="imagens/logo_bootcamp.jpeg" alt="logo" width="180"  class="d-inline-block align-text-top">
-            <img src="imagens/ifpi.png" alt="IFPI" width="180"  class="d-inline-block align-text-top">
-            <img src="imagens/cnpq.png" alt="CNPq" width="180"  class="d-inline-block align-text-top">
+        <div class="footer-right"> 
+            <img src="imagens/cnpq.png" alt="CNPq" width="180px"  class="d-inline-block align-text-top">
+            <img src="imagens/ifpi só a logo.png" alt="IFPI" width="60px"  class="d-inline-block align-text-top">
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

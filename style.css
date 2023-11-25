@@ -67,7 +67,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #ff0000; /* Cor para os títulos */
+    color: black; /* Cor para os títulos */
 }
 
 a {
@@ -118,7 +118,6 @@ header {
 .picosinf {
     background-color: #fff;
     padding: 2rem;
-    border-radius: 8px;
 }
 
 .inf {
@@ -132,5 +131,5 @@ header {
 
 .pica {
     font-weight: bold;
-    color: #007bff; /* Cor para itens importantes */
+    color: #0b325c; /* Cor para itens importantes */
 }
