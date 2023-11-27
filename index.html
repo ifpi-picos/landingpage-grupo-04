@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <header style="margin: 0; background-color: #938172">
-        <nav class="navbar navbar-expand-lg" style="background-color: #938172">
-            <div class="container" style="background-color: #938172">
-                <a class="navbar-brand " href="#" style="color: aliceblue;  background-color: #938172">
+    <header style="margin: 0; background-color: #ffffff">
+        <nav class="navbar navbar-expand-lg" style="background-color: #ffffff">
+            <div class="container" style="background-color: #ffffff">
+                <a class="navbar-brand " href="#" style="color: rgb(255, 255, 255);  background-color: #ffffff">
                     <img src="imagens/Logo escolhida pelo cliente-PhotoRoom.png-PhotoRoom.png" alt="Logo" width="280" height="90"
                         class="d-inline-block align-text-top">
                    
@@ -28,9 +28,8 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
 
-                        <a class="nav-link" href="#">Sobre</a>
-                        <a class="nav-link" href="#map">Mapas</a>
-                        <a class="nav-link" href="#galeria">Galeria</a>
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link" href="#galeria">Mapas</a>
                         <a class="nav-link" href="#equipe">Equipe</a>
 
                     </div>
@@ -39,22 +38,20 @@
         </nav>
     </header>
     <main>
-        <section class="main-section" style="background-color: rgb(255, 255, 255);">
-            <div class="container">
-                <div class="imagem-container">
-                    
-                </div>
-                <div class="sobreposicao-preta"></div>
-                <div class="contentback">
-                    <h1 style="color: #fff; text-align:center; margin-bottom: 3rem;" class="tit">O Estudo do Espaço Urbano em Picos</h1>
-                    <p style="color: #fff; text-align:center;" class="detail">A nossa pesquisa visa compreender os processos mais recentes de produção do espaço urbano e os
-                        agentes responsáveis pela transformação da terra rural em urbana, além de analisar implicações
-                        sobre a morfologia urbana e como isso afeta os citadinos e sua relação com a cidade.</p>   
-                </div>
+        <section class="main-section">
+            <div class="container caixa">
+                <h1 id="tit">
+                    O Estudo do Espaço Urbano em Picos
+                </h1>
+                <p id="detail">
+                    A nossa pesquisa visa compreender os processos mais recentes de produção do espaço urbano<br>e os
+                    agentes responsáveis pela transformação da terra rural em urbana, além de analisar implicações<br>
+                    sobre a morfologia urbana e como isso afeta os citadinos e sua relação com a cidade.
+                </p>        
             </div>
         </section>
         <section class="picosinf" style="display: flex; flex-direction: column; gap: 3rem; background-color:  #541F14; align-items: center; height: 1000px;">
-            <h2 style="text-align: center; color: #fff; " class="tit">Sobre</h2>
+            <h2 id="sobre" style="text-align: center; color: #fff; " class="tit">Sobre</h2>
             <div style="display: flex; gap: 3rem;">
             <div class="inf" style="width: 86rem; height:30rem;">
                 <p style="color: #fff; margin-bottom: 50px !important;" class="detail">A cidade de Picos apresenta ampla oferta de serviços nas áreas de saúde, educação e estabelecimentos
@@ -91,19 +88,19 @@
     </section>
     </div>
 
-                    <div class="dest" style="display: flex; flex-direction:column; align-items:center; justify-content:center;">
-                    <section style="margin: 2rem; display:flex; flex-direction:column; align-items:center; justify-content:center; width: 52%;" >
-                        <h2 class="tit">Destaques para os principais achados até o momento</h2>
-                        <ol class="detail">
-                            <li>Existência de milhares de lotes não edificados e imensas áreas de vazios urbanos resultantes do
-                                processo de produção da cidade numa perspectiva marcada pelos interesses fundiários.</li>
-                            <li>Propusemos a delimitação de três áreas que consideramos como periurbanas devido à coexistência de
-                                usos do solo que mesclam atividades urbanas e rurais.</li>
-                        </ol>
-                    </section>
-                    </div>
-                    <section class="infgeral2" style="background-color: #CC9E61; padding: 2rem;" >
-                    <div class="picosinf2" style="width: 60%;">
+        <div class="dest" style="display: flex; flex-direction:column; align-items:center; justify-content:center;">
+        <section style="margin: 2rem; display:flex; flex-direction:column; align-items:center; justify-content:center; width: 52%;" >
+            <h2 class="tit">Destaques para os principais achados até o momento</h2>
+            <ol class="detail">
+                <li>Existência de milhares de lotes não edificados e imensas áreas de vazios urbanos resultantes do
+                    processo de produção da cidade numa perspectiva marcada pelos interesses fundiários.</li>
+                <li>Propusemos a delimitação de três áreas que consideramos como periurbanas devido à coexistência de
+                    usos do solo que mesclam atividades urbanas e rurais.</li>
+            </ol>
+        </section>
+        </div>
+        <section class="infgeral2" style="background-color: #CC9E61; padding: 2rem;" >
+<div class="picosinf2" style="width: 60%;">
             <h3 class="inftit" style="text-align: center;">Ferramentas e técnicas empregadas na coleta de dados.</h3>
             <div class="inflist">
                 <ul>
@@ -153,12 +150,12 @@
     </div> 
     
 
-        <h2 id="galeria" style="text-align: center;" class="tit">Mapas</h2>
+        <h2 id="galeria" style="text-align: center;" class="tit">Mapa</h2>
 
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner"  >
               <div class="carousel-item active" style="margin-left: 860px; width: 60%;">
-                <img src="imagens/mapa1.png" class="d-block w-100" alt="mapa" >
+                <img src="imagens/mapa2.png" class="d-block w-100" alt="mapa" >
               </div>
               <div class="carousel-item" style="margin-left: 860px; width: 60%;">
                 <img src="imagens/mapa2.png" class="d-block w-100" alt="mapa">
@@ -166,17 +163,6 @@
               <div class="carousel-item" style="margin-left: 860px; width: 60%;">
                 <img src="imagens/mapa4.png" class="d-block w-100" alt="mapa">
               </div>
-              <div class="carousel-item" style="margin-left: 860px; width: 60%;">
-                <img src="imagens/mapa5.png" class="d-block w-100" alt="mapa">
-              </div>
-              <div class="carousel-item" style="margin-left: 860px; width: 60%;">
-                <img src="imagens/mapa6.png" class="d-block w-100" alt="mapa">
-              </div>
-              <div class="carousel-item" style="margin-left: 860px; width: 60%;">
-                <img src="imagens/mapa7.png" class="d-block w-100" alt="mapa">
-              </div>
-                <div class="carousel-item" style="margin-left: 860px; width: 60%;">
-                    <img src="imagens/mapa8.png" class="d-block w-100" alt="mapa">
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -191,29 +177,32 @@
 
 
           
+
+
+          
           
 
-        <section class="equipe" style=" background-color: #938172; padding: 2rem;">
-            <h3 style="text-align: center; background-color: #938172;" id="equipe" class="tit">Equipe</h3>
+        <section class="equipe" style=" background-color: #541F14; padding: 2rem;">
+            <h3 style="text-align: center; background-color: #541F14;" id="equipe" class="tit">Equipe</h3>
             <div style="display: flex; gap: 2rem; justify-content: space-evenly; align-items: center;">
-                <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center;">
+                <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center; color: #fff">
                     <img src="imagens/Claudinei.jpeg" alt="Foto de Claudinei" style="width: 10rem; border-radius: 50%;">
                     <p class="detail">Claudinei da Silva Pereira</p>
                     <p class="detail">Coordenador</p>
             </div>
-            <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center;">
+            <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center;color: #fff;">
                 <img src="imagens/Nildemar.jpeg" alt="Foto de Nildemar" style="width: 10rem; border-radius: 60%;">
                 <p class="detail">Nildemar Pereira Silva</p>
                 <p class="detail">Colaborador</p>
             </div>
-            <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center;">
+            <div style="display: flex; flex-flow: column wrap; justify-content: center; align-items: center; color: #fff">
                 <img src="imagens/user.png" alt="Ana Beatriz" style="width: 10rem; border-radius: 50%;">
                 <p class="detail">Ana Beatriz dos Santos Silva</p>
                 <p class="detail">Bolsista de iniciação científica</p>
             </div>
         </div>
         </section>
-        <section style="display: flex; justify-content: center; align-items: center; background-color: #626266; padding: 3rem;">
+        <section style="display: flex; justify-content: center; align-items: center; background-color: #CC9E61; padding: 3rem;">
             <div style="flex-direction: column; margin-left: 2rem; display: flex; flex-flow: column; justify-content: center; align-items: center;">
                 <h4 style="color: #fff;" class="tit">Artigos com uma temática semelhante</h4><br>
                 <p style="color: #fff;" class="detail">
@@ -229,13 +218,12 @@
         </section>
 
     </main>
-    <footer style="background-color: black;">
+    <footer style="background-color: rgb(255, 255, 255);">
         <div style="margin-left: 0;">
             <ul style="font-size: 30px;">
-                <li><a href="#" style="color: #fff;">Sobre</a></li>
-                <li><a href="#map" style="color: #fff;">Mapas</a></li>
-                <li><a href="#galeria" style="color: #fff;">Galeria</a></li>
-                <li><a href="#equipe" style="color: #fff;">Equipe</a></li>
+                <li><a href="#sobre" style="color: #000000;">Sobre</a></li>
+                <li><a href="#galeria" style="color: #000000;">Mapas</a></li>
+                <li><a href="#equipe" style="color: #000000;">Equipe</a></li>
             </ul>
         </div>
         <div class="footer-right"> 
