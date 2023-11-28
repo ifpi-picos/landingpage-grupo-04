@@ -1,7 +1,7 @@
-.body {
+/* .body {
     background-color: #ffffff;
     overflow-x: hidden;
-}
+} */
 
 /* cabeçalho */
 
@@ -113,6 +113,12 @@ p {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+}
+
 /* carrossel */
 #carouselExampleIndicators {
     width: 50%;
@@ -122,7 +128,7 @@ p {
 }
 
 
-.carousel-inner .img1 {
+/* .carousel-inner .img1 {
     width: 100%;
     height: auto;
     margin: auto;
@@ -150,15 +156,15 @@ p {
     width: 60%;
     height: auto;
     margin: auto;
-}
+} */
 
-#carouselphoto {
+#carrossel {
     width: 50%;
     margin: auto;
     margin-top: 50%;
 }
 
-.carousel-inner .img6 {
+/* .carousel-inner .img6 {
     width: 60%;
     height: auto;
     margin: auto;
@@ -198,25 +204,7 @@ p {
     width: 60%;
     height: auto;
     margin: auto;
-}
-
-
-
-
-
-.reflexoes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 2rem;
-    width: 90%;
-}
-
-.equipe {
-    text-align: center;
-    background-color: #541F14;
-}
+} */
 
 
 .equipe2 {
@@ -224,10 +212,11 @@ p {
     flex-direction:row-reverse;
     gap: 2rem;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items: center !important;
 }
 
 .equipe2 img {
+    height: 50%;
     width: 10rem;
     border-radius: 80%;
 }
@@ -285,154 +274,3 @@ footer ul li {
     width: 100px; /* Ajuste o tamanho conforme necessário */
     height: auto; /* Para manter a proporção da imagem */
 }
-
-
-
-/* 
-.picosinf, .picosinf1, .picosinf2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.picosinf1{
-    width: 90%;
-    flex-flow: row nowrap;
-}
-.infgeral2{
-    display: flex;
-    justify-content: space-between;
-    flex-flow: column nowrap;
-    align-items: center;
-}
-.infgeral3{
-    display: flex;
-    justify-content: center;
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: justify;
-}
-.inftit{
-    width: 40%;
-    font-size: 65px;
-}
-.tit{
-    font-size: 65px !important;
-}
-.detail{
-    font-size: 40px !important;
-}
-.inflist{
-    width: 40%;
-    font-size: 35px;
-}
-.picosinf2{
-    flex-flow: row nowrap;
-    justify-content: space-around;
-}
-.inf{
-    width: 90%;
-    text-align: justify;
-}
-footer{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-around;
-    height: 300px;
-}
-ul{
-    list-style: none;
-    
-}
-ul li a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-.footer-right img{
-    margin-right: 30px;
-}
-
-.nav-link:hover{
-   background-color: rgb(205, 205, 211);
-   transition: 10s;
-   border-radius: 5px;
-}
-
-
-body {
-    font-family: 'Suez One', serif; 
-    background-color: #ffffff; 
-    color: #000000;
-}
-
-h1, h2, h4, h5, h6 {
-    color: black; 
-}
-
-h3{
-    color: #fff;
-}
-
-a {
-    color: #2861a7;
-}
-
-a:hover {
-    color: #2861a7; 
-}
-
-header {
-    
-    background-color: #ffffff;
-    color: #ffffff;
-    padding: 1rem;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar-nav a {
-    color: #000000;
-    margin-right: 15px;
-    font-size: 35px;
-}
-
-.main-section {
-    background-image: url('balao2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #bcadad; 
-    padding: 3rem 0;
-    text-align: center;
-}
-
-.main-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.main-section p {
-    font-size: 1.2rem;
-}
-
-.picosinf {
-    background-color: #fff;
-    padding: 2rem;
-}
-
-.inf {
-    flex: 1;
-}
-
-.inf img {
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-.pica {
-    font-weight: bold;
-    color: #0b325c;
-}
- */
