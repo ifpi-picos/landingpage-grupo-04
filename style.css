@@ -59,37 +59,39 @@ header .botao a:hover {
 /* sobre */
 
 #sobre {
-background-color: #dddddd;
-flex-direction: column-reverse;
-text-align: center;
-display: flex;
-justify-content: center;
+    background-color: #dddddd;
+    flex-direction: column-reverse;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 
 
 }
 
 
-.inf, img, p {
+.inf,
+img,
+p {
     width: 100%;
-} 
+}
 
 /* carrossel */
- #carouselExampleIndicators {
+#carouselExampleIndicators {
     width: 50%;
     margin: auto;
-    margin-top: 50px; 
+    margin-top: 50px;
     margin-bottom: -45%;
 }
 
 
 .carousel-inner .img1 {
-    width: 100%; 
+    width: 100%;
     height: auto;
     margin: auto;
 }
 
 .carousel-inner .img2 {
-    width: 25%; 
+    width: 25%;
     height: 25%;
     margin: auto;
 }
@@ -99,18 +101,20 @@ justify-content: center;
     height: auto;
     margin: auto;
 }
+
 .carousel-inner .img4 {
     width: 60%;
     height: auto;
     margin: auto;
 }
+
 .carousel-inner .img5 {
     width: 60%;
     height: auto;
     margin: auto;
-} 
+}
 
-#carouselphoto{
+#carouselphoto {
     width: 50%;
     margin: auto;
     margin-top: 50%;
@@ -158,12 +162,79 @@ justify-content: center;
     margin: auto;
 }
 
+.picosinf {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    gap: 2rem;
+    width: 60%;
+}
 
+.div1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.dest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.destaques {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 52%;
+}
 
+.infgeral2 {
+    background-color: #CC9E61;
+    padding: 2rem;
+}
 
+.picosinf2 {
+    width: 60%;
+}
 
+.reflexoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    width: 90%;
+}
+
+.equipe2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+.artigos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CC9E61;
+    padding: 3rem;
+}
+
+.div-artigos {
+    flex-direction: column;
+    margin-left: 2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* 
