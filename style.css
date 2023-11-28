@@ -5,6 +5,27 @@
 
 /* cabeçalho */
 
+header {
+    background-color: #dddddd;
+    color: #ffffff;
+    padding: 1rem;
+    height: 120px;
+}
+
+header .botao a {
+    color: #000000;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+header .botao a:hover {
+    border-bottom: solid;
+    border-color: black;
+    color: black;
+    transition: 0.5s;
+    padding: 1px;
+}
+
 /* pagina inicial */
 
 .caixa {
@@ -36,6 +57,114 @@
 }
 
 /* sobre */
+
+#sobre {
+background-color: #dddddd;
+flex-direction: column-reverse;
+text-align: center;
+display: flex;
+justify-content: center;
+
+
+}
+
+
+.inf, img, p {
+    width: 100%;
+} 
+
+/* carrossel */
+ #carouselExampleIndicators {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px; 
+    margin-bottom: -45%;
+}
+
+
+.carousel-inner .img1 {
+    width: 100%; 
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img2 {
+    width: 25%; 
+    height: 25%;
+    margin: auto;
+}
+
+.carousel-inner .img3 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.carousel-inner .img4 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+.carousel-inner .img5 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+} 
+
+#carouselphoto{
+    width: 50%;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.carousel-inner .img6 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img7 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img8 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img9 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img10 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img11 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-inner .img12 {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
 
 /* 
 .picosinf, .picosinf1, .picosinf2{
