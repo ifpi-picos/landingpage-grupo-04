@@ -68,6 +68,44 @@ header .botao a:hover {
 
 }
 
+.picosinf {
+    display: flex;
+    align-items: center;
+}
+
+.picosinf h2 {
+    margin-right: 20px; /* Ajuste conforme necessário para criar espaço entre a imagem e o título */
+}
+
+.picosinf img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto;
+}
+
+.picosinf .inf {
+    flex-grow: 1; /* Ocupa o espaço restante disponível */
+}
+
+/*destaques */
+.destaques {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*ferramentas e afetar positivamente*/
+.infgeral2 {
+    background-color: #CC9E61;
+    padding: 2rem;
+}
+
+.picosinf2 {
+    width: 100%;
+}
+
 
 .inf,
 img,
@@ -162,45 +200,9 @@ p {
     margin: auto;
 }
 
-.picosinf {
-    display: flex;
-    align-items: center;
-    margin-left: 2rem;
-    gap: 2rem;
-    width: 60%;
-}
 
-.div1 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
 
-.dest {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.destaques {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 52%;
-}
-
-.infgeral2 {
-    background-color: #CC9E61;
-    padding: 2rem;
-}
-
-.picosinf2 {
-    width: 60%;
-}
 
 .reflexoes {
     display: flex;
@@ -211,12 +213,32 @@ p {
     width: 90%;
 }
 
+.equipe {
+    text-align: center;
+    background-color: #541F14;
+}
+
+
 .equipe2 {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    color: #fff
+    flex-direction:row-reverse;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.equipe2 img {
+    width: 10rem;
+    border-radius: 80%;
+}
+
+.equipe2 p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.detail {
+    text-align: center;
 }
 
 .artigos {
@@ -235,6 +257,35 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+/*footer*/
+
+/* styles.css */
+
+footer {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente os itens */
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-right img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Para manter a proporção da imagem */
+}
+
 
 
 /* 
