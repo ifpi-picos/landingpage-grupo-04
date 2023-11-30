@@ -17,7 +17,7 @@
 
 header {
     background-color: #dddddd;
-    color: #ffffff;
+    color: #5c5c5c;
     padding: 1rem;
     height: 100px;
 }
@@ -65,17 +65,32 @@ header .botao a:hover {
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    color: rgb(164, 23, 23);
+
+}
+
 /* sobre */
 
 #sobre {
+    width: 100%;
     background-color: #dddddd;
     flex-direction: column-reverse;
     text-align: center;
+    text-align: left;
     display: flex;
     justify-content: center;
-
-
 }
+
+
+#sobre img {
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+
+
 
 .picosinf {
     display: flex;
@@ -107,7 +122,7 @@ header .botao a:hover {
 
 /*ferramentas e afetar positivamente*/
 .infgeral2 {
-    background-color: #CC9E61;
+    background-color: darkred;
     padding: 2rem;
 }
 
@@ -135,6 +150,26 @@ h1 {
     margin-top: 50px;
     margin-bottom: -45%;
 }
+
+h6{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+h2{
+    text-align:center;
+    font-size: 2rem;
+    color: #000000;
+   
+}
+h3{
+    text-align:center;
+    font-size: 1.5rem;
+    color: #ffffff;
+   
+}
+
 
 
 /* .carousel-inner .img1 {
@@ -260,30 +295,14 @@ h1 {
 /*footer*/
 
 /* styles.css */
-
-footer {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Centraliza verticalmente os itens */
-    padding: 10px;
+#rodapé {
+    background-color: #ffffff;
+    color: #848484;
+    padding: 1rem;
+    height: 100px;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    font-size: 18px;
-}
 
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.footer-right img {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: auto; /* Para manter a proporção da imagem */
-}
 
 
 /* #sobre{
