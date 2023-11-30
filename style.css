@@ -3,13 +3,18 @@
     overflow-x: hidden;
 } */
 
+/* ajuste de tela */
+.ajuste {
+    padding-top: 10rem;
+}
+
 /* cabeçalho */
 
 header {
     background-color: #dddddd;
     color: #ffffff;
     padding: 1rem;
-    height: 120px;
+    height: 100px;
 }
 
 header .botao a {
