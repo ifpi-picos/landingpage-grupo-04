@@ -1,9 +1,4 @@
-/* .body {
-    background-color: #ffffff;
-    overflow-x: hidden;
-} */
 
-/* ajuste de tela */
 .ajuste {
     padding-top: 10rem;
 }
@@ -66,16 +61,58 @@ header .botao a:hover {
 }
 
 a{
-    text-decoration: none;
-    color: rgb(164, 23, 23);
+    text-decoration:#fc0000;
+    color:#848484;
+    text-decoration: underline;
 
+}
+
+
+.body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.img-fundo {
+  padding: 50px; /* Ajuste o espaçamento interno conforme necessário */
+  position: relative;
+}
+
+.img-fundo::before {
+  content: '';
+  background-image: url('imagens/balao.jpeg'); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+}
+
+.vh-100 {
+  min-height: 100vh; /* Ajusta a altura para 100% da viewport */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.p-1 {
+  font-size: 1.2rem;
 }
 
 /* sobre */
 
 #sobre {
     width: 100%;
-    background-color: #dddddd;
+    background-color: #ffffff;
     flex-direction: column-reverse;
     text-align: center;
     text-align: left;
@@ -89,7 +126,6 @@ a{
     height: auto;
     margin: auto;
 }
-
 
 
 .picosinf {
@@ -120,15 +156,6 @@ a{
     width: 100%;
 }
 
-/*ferramentas e afetar positivamente*/
-.infgeral2 {
-    background-color: darkred;
-    padding: 2rem;
-}
-
-.picosinf2 {
-    width: 100%;
-}
 
 
 .inf,
@@ -161,6 +188,7 @@ h2{
     text-align:center;
     font-size: 2rem;
     color: #000000;
+
    
 }
 h3{
@@ -171,84 +199,12 @@ h3{
 }
 
 
-
-/* .carousel-inner .img1 {
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img2 {
-    width: 25%;
-    height: 25%;
-    margin: auto;
-}
-
-.carousel-inner .img3 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img4 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img5 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-} */
-
 #carrossel {
     width: 50%;
     margin: auto;
     margin-top: 50%;
 }
 
-/* .carousel-inner .img6 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img7 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img8 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img9 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img10 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img11 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-}
-
-.carousel-inner .img12 {
-    width: 60%;
-    height: auto;
-    margin: auto;
-} */
 
 
 
@@ -279,7 +235,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #2f0303;
     padding: 3rem;
 }
 
@@ -339,3 +295,4 @@ main{
 .carlos{
     height: 900px;
 }
+
