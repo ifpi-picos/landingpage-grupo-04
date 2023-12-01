@@ -71,6 +71,7 @@ a{
 .body, html {
   height: 100%;
   margin: 0;
+  font-size:22px;
 }
 
 .img-fundo {
@@ -156,6 +157,26 @@ a{
     width: 100%;
 }
 
+#batata{
+    margin-bottom: 8%;
+}
+
+#cebola{
+    margin-bottom: 8%;
+}  
+
+#tomate{
+    margin-bottom: 8%;
+}
+
+#mapas{
+    margin-bottom: 8%;
+}
+
+#galeria{
+    margin-bottom: 8%;
+}
+
 
 
 .inf,
@@ -172,7 +193,7 @@ h1 {
 
 /* carrossel */
 #carouselExampleIndicators {
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: -45%;
@@ -185,13 +206,14 @@ h6{
 }
 
 h2{
+    
     text-align:center;
     font-size: 2rem;
     color: #000000;
 
    
 }
-h3{
+h3{ 
     text-align:center;
     font-size: 1.5rem;
     color: #ffffff;
@@ -199,10 +221,12 @@ h3{
 }
 
 
+
 #carrossel {
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-top: 50%;
+   
 }
 
 
@@ -212,7 +236,7 @@ h3{
     display: flex;
     flex-direction:row-reverse;
     gap: 2rem;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center !important;
 }
 
