@@ -71,7 +71,7 @@ a{
 .body, html {
   height: 100%;
   margin: 0;
-  font-size:22px;
+  font-size:20px;
 }
 
 .img-fundo {
@@ -123,7 +123,7 @@ a{
 
 
 #sobre img {
-    width: 75%;
+    width: 85%;
     height: auto;
     margin: auto;
 }
@@ -177,8 +177,15 @@ a{
     margin-bottom: 8%;
 }
 
+.navbar-nav a {
+    color: #000000; 
+    transition: color 0.3s transform 0.3s;; 
+}
 
-
+.navbar-nav a:hover {
+    color: darkred;
+    transform: scale(1.05);
+}
 
 .inf,
 img,
@@ -194,7 +201,7 @@ h1 {
 
 /* carrossel */
 #carouselExampleIndicators {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: -45%;
@@ -224,7 +231,7 @@ h3{
 
 
 #carrossel {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 50%;
    
