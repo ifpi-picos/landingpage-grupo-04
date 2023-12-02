@@ -74,10 +74,6 @@ a{
   font-size:20px;
 }
 
-.img-fundo {
-  /* padding: 50px; Ajuste o espaçamento interno conforme necessário */
-  /* position: relative; */
-}
 
 .img-fundo::before {
   content: '';
