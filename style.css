@@ -287,31 +287,13 @@ footer {
 
 
 
-/* ajustar imagens */
-
- .col-md-6.col-lg-24{
-    margin-left: -5%;
-    flex: 0 0 auto;
-    width: 425px;
-}
-
-.col-md-6.col-lg-25{
-    margin-left: -5%;
-    flex: 0 0 auto;
-    width: 425px;
-}
-
-.col-lg-4.col-lg-4 {
-    margin-left: 11%;
-    flex: 0 0 auto;
-    width: 33.333333%;
-}
 
 main{
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    
 }
+
 
 
 
