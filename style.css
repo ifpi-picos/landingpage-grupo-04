@@ -1,11 +1,3 @@
-/* .ajuste {
-    padding-top: 10rem;
-} */
-
-.ajuste2 {
-    display: flex;
-    justify-content: center;
-}
 
 /* cabeçalho */
 
@@ -284,7 +276,20 @@ footer {
     margin-left: 2rem;
 }
 
+ 
+section {
+    margin-top: -40px; 
+}
+#galeria {
+    padding-top: 130px;
 
+}
+#mapas {
+    padding-top: 130px; 
+}
+#equipe {
+    padding-top: 130px; 
+}
 
 
 main{
